@@ -1,0 +1,33 @@
+# Python Bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+chatVirtualEnv/
+
+# Python Distribution / Packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.eggs/
+
+# FastAPI Specific (ignore logs, and database files)
+*.log
+*.sqlite
+*.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Environment Variables File
+.env
